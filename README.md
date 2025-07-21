@@ -39,7 +39,7 @@ A secure REST API for managing Impossible Missions Force (IMF) gadgets, built wi
 
 ### 1. Clone the repository
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/BerrySeriousCoder/IMF-Gadget-API-Development-assignment.git
 cd backendassignment
 ```
 
@@ -93,7 +93,7 @@ Copy the `token` value from the response.
 
 ## Submission
 - GitHub repository link: `https://github.com/BerrySeriousCoder/IMF-Gadget-API-Development-assignment.git`
-- Live API link: `<your-deployment-url>`
+- Live API link: `https://imfagent.onrender.com`
 - Swagger docs: `/docs` on your deployed API
 
 ---
