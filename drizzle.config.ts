@@ -6,5 +6,7 @@ export default {
   schema: './src/models/*.ts',
   out: './drizzle',
   dialect: 'postgresql',
-  url: process.env.DATABASE_URL as string,
+  dbCredentials: {
+    url: process.env.DATABASE_URL as string,
+  }
 } satisfies Config; 
